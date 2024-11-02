@@ -1,4 +1,4 @@
-BASIC PROGRAMS
+BASIC PROJECTS
 ==============
 
-Just my basic programs!
+Just my basic projects!
