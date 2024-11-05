@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Calculator{
+	
     public static void main(String[] args){
         // A SIMPLE CALCULATOR IN JAVA!
 
@@ -11,9 +12,9 @@ public class Calculator{
         while (program.equals(true)){
 
             System.out.print("ADD(A), SUBTRACT(S), MULTIPLY(M), DIVIDE(D): ");
-            String operator = input.next();
+            String operator = input.next().toLowerCase();
 
-            if (operator.equals("A")){
+            if (operator.equals("a")){
                 System.out.print("Enter the 1st number to add: ");
                 int num1 = input.nextInt();
                 System.out.print("Enter the 2nd number to add: ");
@@ -21,7 +22,7 @@ public class Calculator{
                 int num = num1 + num2;
                 System.out.printf("%d + %d = %d\n", num1, num2, num);
             }
-            else if (operator.equals("S")){
+            else if (operator.equals("s")){
                 System.out.print("Enter the number to subtract: ");
                 int num1 = input.nextInt();
                 System.out.print("Enter the number to subtracted by: ");
@@ -29,7 +30,7 @@ public class Calculator{
                 int num = num1 - num2;
                 System.out.printf("%d - %d = %d\n", num1, num2, num);
             }
-            else if (operator.equals("M")){
+            else if (operator.equals("m")){
                 System.out.print("Enter the number to multiply: ");
                 int num1 = input.nextInt();
                 System.out.print("Enter the number to multiplied by: ");
@@ -37,7 +38,7 @@ public class Calculator{
                 int num = num1 * num2;
                 System.out.printf("%d x %d = %d\n", num1, num2, num);
             }
-            else if (operator.equals("D")) {
+            else if (operator.equals("d")) {
                 System.out.print("Enter the number to divide: ");
                 double num1 = input.nextDouble();
                 System.out.print("Enter the number to divided by: ");
@@ -50,9 +51,9 @@ public class Calculator{
             }
 
             System.out.print("Do you want to do math operation?(Y/n): ");
-            String dec = input.next();
+            String dec = input.next().toLowerCase();
 
-            if (dec.equals("Y")){
+            if (dec.equals("y")){
                 program = true;
             }
             else {
@@ -65,4 +66,5 @@ public class Calculator{
 
         input.close();
     }
+    
 }
