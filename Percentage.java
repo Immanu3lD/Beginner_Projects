@@ -2,7 +2,7 @@ public class Percentage {
 	
 	public static void main(String[] args) {
 		
-		percentage(23.4, 243);
+		percentage(/*The percentage*/, /*The number*/);
 		
 	}
 	
