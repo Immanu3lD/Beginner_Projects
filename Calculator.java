@@ -1,15 +1,13 @@
 import java.util.*;
 
-public class Calculator{
+public class calculator{
 	
     public static void main(String[] args){
         // A SIMPLE CALCULATOR IN JAVA!
 
         Scanner input = new Scanner(System.in);
 
-        Boolean program = true;
-
-        while (program.equals(true)){
+        while (true){
 
             System.out.print("ADD(A), SUBTRACT(S), MULTIPLY(M), DIVIDE(D): ");
             String operator = input.next().toLowerCase();
@@ -30,10 +28,10 @@ public class Calculator{
                     String dec = input.next().toLowerCase();
 
                     if (dec.equals("y")){
-                        program = true;
+                        continue;
                     }
                     else {
-                        program = false;
+                        break;
                     }
             	}
             }
@@ -53,10 +51,10 @@ public class Calculator{
             		String dec = input.next().toLowerCase();
 
                     if (dec.equals("y")){
-                        program = true;
+                        continue;
                     }
                     else {
-                        program = false;
+                        break;
                     }	
             	}
             }
@@ -76,10 +74,10 @@ public class Calculator{
             		String dec = input.next().toLowerCase();
 
                     if (dec.equals("y")){
-                        program = true;
+                        continue;
                     }
                     else {
-                        program = false;
+                        break;
                     }   
             	}
             }
@@ -99,10 +97,10 @@ public class Calculator{
             		String dec = input.next().toLowerCase();
 
                     if (dec.equals("y")){
-                        program = true;
+                        continue;
                     }
                     else {
-                        program = false;
+                        break;
                     }
             	}
             }
@@ -114,10 +112,10 @@ public class Calculator{
             String dec = input.next().toLowerCase();
 
             if (dec.equals("y")){
-                program = true;
+                continue;
             }
             else {
-                program = false;
+                break;
             }
 
         }
