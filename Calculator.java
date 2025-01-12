@@ -14,7 +14,7 @@ public class calculator{
 
             if (operator.equals("a")){
             	try {
-            		System.out.print("Enter the 1st number to add: ");
+            	    System.out.print("Enter the 1st number to add: ");
                     double num1 = input.nextDouble();
                     System.out.print("Enter the 2nd number to add: ");
                     double num2 = input.nextDouble();
@@ -83,7 +83,7 @@ public class calculator{
             }
             else if (operator.equals("d")) {
             	try {
-            		System.out.print("Enter the number to divide: ");
+            	    System.out.print("Enter the number to divide: ");
                     double num1 = input.nextDouble();
                     System.out.print("Enter the number to divided by: ");
                     double num2 = input.nextDouble();
