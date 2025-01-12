@@ -14,9 +14,9 @@ public class calculator{
 
             if (operator.equals("a")){
             	try {
-            	    System.out.print("Enter the 1st number to add: ");
+            	    System.out.print("Enter a number to add: ");
                     double num1 = input.nextDouble();
-                    System.out.print("Enter the 2nd number to add: ");
+                    System.out.print("Enter a another number to add: ");
                     double num2 = input.nextDouble();
                     double num = num1 + num2;
                     System.out.printf("%.2f + %.2f = %.2f\n", num1, num2, num);
