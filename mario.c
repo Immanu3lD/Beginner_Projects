@@ -2,12 +2,14 @@
 
 int mario(int);
 
-int main(int argc, char **argv) {
+int main() {
     
     int row;
 
+    do{
     printf("Height: ");
     scanf("%d", &row);
+    }while(row < 0);
 
     mario(row);
 
